@@ -51,11 +51,12 @@ python main.py
 2. Utiliza una cámara de celular para probar la detección de productos.
 3. La aplicación registrará los productos y mostrará el precio total para su pago
    
-Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Mira el archivo LICENSE para más detalles.
 
 ## Contacto
 Para más información o preguntas sobre el proyecto, puedes contactar a los autores:
 
-Sebastian Alonso Arana de Carpio
-Luis Gustavo Becerra Bisso
+- Sebastian Alonso Arana de Carpio
+- Luis Gustavo Becerra Bisso
+Correo electrónico: 
