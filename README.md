@@ -9,8 +9,7 @@ Este proyecto, denominado MinimarketPlus, tiene como objetivo principal desarrol
 3. [Dataset](#dataset)
 4. [Instalación](#instalación)
 5. [Uso](#uso)
-6. [Licencia](#licencia)
-7. [Contacto](#contacto)
+6. [Contacto](#contacto)
 
 ## Descripción
 MinimarketPlus es un sistema diseñado para minimizar el tiempo de espera de los clientes en minimarkets mediante el uso de tecnologías avanzadas como la visión computacional. Este sistema registrará todos los productos seleccionados por los clientes a través de una cámara, calculará el precio total y permitirá a los clientes realizar el pago de manera rápida y eficiente. El sistema está destinado a ser una solución eficiente para los minimarkets de Lima Metropolitana, especialmente durante las horas punta.
@@ -51,9 +50,6 @@ python main.py
 2. Utiliza una cámara de celular para probar la detección de productos.
 3. La aplicación registrará los productos y mostrará el precio total para su pago
    
-## Licencia
-Este proyecto está bajo la Licencia MIT. Mira el archivo LICENSE para más detalles.
-
 ## Contacto
 Para más información o preguntas sobre el proyecto, puedes contactar a los autores:
 
