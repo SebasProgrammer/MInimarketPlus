@@ -57,6 +57,7 @@ Este proyecto está bajo la Licencia MIT. Mira el archivo LICENSE para más deta
 ## Contacto
 Para más información o preguntas sobre el proyecto, puedes contactar a los autores:
 
-- Sebastian Alonso Arana de Carpio: sebastian.arana2016@gmail.com
+- Sebastian Alonso Arana de Carpio
 - Luis Gustavo Becerra Bisso
-Correo electrónico: 
+
+Correo electrónico: sebastian.arana2016@gmail.com o gbecerra2015@gmail.com
