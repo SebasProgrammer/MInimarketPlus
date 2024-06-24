@@ -87,29 +87,6 @@ def get_class_html(cls, detected_classes):
     style = detected_style if cls in detected_classes else default_style
     return f'<span style="{style}">{cls}</span>'
 
-class VideoTransformer(VideoTransformerBase):
-    def __init__(self):
-        # Establece los valores predeterminados para model y confidence
-        self.model = None
-        self.confidence = 0.25
-
-    def set_params(self, model, confidence):
-        self.model = model
-        self.confidence = confidence
-
-    def recv(self, frame):
-        img = frame.to_ndarray(format="bgr24")
-        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-
-        if self.model:
-            results = self.model(img_rgb, conf=self.confidence)
-
-            if results:
-                annotated_frame = results[0].plot()  # Annotate frame
-                return av.VideoFrame.from_ndarray(cv2.cvtColor(annotated_frame, cv2.COLOR_RGB2BGR), format="bgr24")
-
-        return av.VideoFrame.from_ndarray(img, format="bgr24")
-
 def main():
 
     st.title("Detección de Objetos")
