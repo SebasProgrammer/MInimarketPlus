@@ -2,6 +2,8 @@
 
 Este proyecto, denominado MinimarketPlus, tiene como objetivo principal desarrollar un sistema informático que reduzca el tiempo de espera de los clientes en minimarkets de Lima Metropolitana utilizando visión computacional para la detección de objetos.
 
+Link de la demo: https://minimarketplus.netlify.app/
+
 ## Tabla de Contenidos
 
 1. [Descripción](#descripción)
