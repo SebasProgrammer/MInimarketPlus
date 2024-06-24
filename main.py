@@ -90,7 +90,7 @@ def get_class_html(cls, detected_classes):
 def main():
 
     st.title("Detección de Objetos")
-    activiteis = ["Principal", "Usar cámara", "Subir imagen", "Subir vídeo"]
+    activiteis = ["Principal", "Subir imagen"]
     choice = st.sidebar.selectbox("Selecciona actividad", activiteis)
     st.sidebar.markdown('---')
 
