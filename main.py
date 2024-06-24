@@ -97,7 +97,7 @@ def main():
     if choice == "Principal":
         html_temp_home1 = """<div style="padding:10px">
                                             <h4 style="color:white;text-align:left;">
-                                            Aplicación web de detección del curso de TP1 usando Yolov9, Google Colab, Roboflow, Streamlit y lenguaje de programación Python.</h4>
+                                            Aplicación web de detección del curso de TP1 usando Yolov8, Google Colab, Roboflow, Streamlit y lenguaje de programación Python.</h4>
                                             </div>
                                             </br>"""
         st.markdown(html_temp_home1, unsafe_allow_html=True)
